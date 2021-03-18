@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fDiv {
+    height: 100vh;
+    background-image: url(food.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.fDiv img {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.heading {
+    margin-left: 20%;
+    margin-top: -7%;
+    font-family: 'Grandstander', cursive;
+    color: #ff0505;
+    font-weight: 500;
+}
+
+.lines {
+    margin-left: 50px;
+    margin-top: 180px;
+    color: cyan;
+    font-weight: 400;
+}
+
+.linest {
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #5fd641;
+    font-weight: 400;
+}
+
+.linesth {
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #5fd641;
+    font-weight: 400;
+}
+
+.location-link {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 6px;
+    font-size: 20px;
+    font-family: cursive;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 140px;
+    right: 200px;
+}
+.location-link:hover{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 6px;
+    font-size: 20px;
+    font-family: cursive;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 140px;
+    right: 200px;
+}
+
+.fhead {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.iname {
+    font-size: 20px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#footer {
+    background: black;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-bottom: 0px;
+}
+
+
